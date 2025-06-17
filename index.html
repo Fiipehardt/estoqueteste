@@ -92,7 +92,7 @@
             <button onclick="mostrarEdicao(this, '${item.referencia}')">✏️ Editar Estoque</button>
             <div class="campo-edicao" style="display:none;">
               Quantidade atual: 
-              <input type="number" min="0" value="${contagem[item.referencia] ?? ''}" 
+              <input type="tel" pattern="[0-9]*" inputmode="numeric" value="${contagem[item.referencia] ?? ''}" 
                 onchange="atualizarEstoque('${item.referencia}', this.value)">
             </div>
           `;
