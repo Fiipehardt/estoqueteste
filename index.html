@@ -72,6 +72,7 @@
     <button onclick="resetar()">🔄 Resetar</button>
     <button onclick="copiarLista()">📤 Copiar Lista</button>
   </div>
+  <button onclick="abrirTabela()">📄 Abrir Tabela de Pedido</button>
   <div id="lista-pedido"></div>
 
   <script>
@@ -154,6 +155,78 @@
         document.getElementById('lista-pedido').innerText = '';
       }
     }
-  </script>
+  
+    function abrirTabela() {
+      let linhas = [];
+      for (const ref in contagem) {
+        const item = dados.find(i => i.referencia === ref);
+        if (!item) continue;
+        const atual = contagem[ref];
+        const minimo = item.estoque_minimo;
+        const pedir = minimo - atual;
+        if (pedir > 0) {
+          linhas.push(`<tr>
+            <td>${ref}</td>
+            <td>${item.volume}</td>
+            <td>${atual}</td>
+            <td>${minimo}</td>
+            <td>${pedir}</td>
+          </tr>`);
+        }
+      }
+      if (!linhas.length) {
+        alert("Nenhum item precisa ser pedido.");
+        return;
+      }
+      let tabela = `
+        <html><head><title>Itens a Pedir</title>
+        <style>
+          body {{ font-family: Arial; padding: 20px; }}
+          
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th {
+      background-color: #009688;
+      color: white;
+      padding: 12px 15px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 12px 15px;
+      background-color: #f9f9f9;
+    }
+    tr:nth-child(even) td {
+      background-color: #f1f1f1;
+    }
+    tr:hover td {
+      background-color: #e0f7fa;
+    }
+    
+          th, td {{ border: 1px solid #999; padding: 8px; text-align: center; }}
+          th {{ background-color: #00bfa5; color: white; }}
+        </style>
+        </head><body>
+        <h2>Itens para Pedido</h2>
+        <table>
+          <thead>
+            <tr><th>Referência</th><th>Volume</th><th>Atual</th><th>Mínimo</th><th>Pedir</th></tr>
+          </thead>
+          <tbody>${linhas.join('')}</tbody>
+        </table>
+        </body></html>
+      `;
+      const novaJanela = window.open("", "_blank");
+      novaJanela.document.write(tabela);
+      novaJanela.document.close();
+    }
+    </script>
 </body>
 </html>
