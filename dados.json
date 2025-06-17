@@ -1,0 +1,1442 @@
+[
+  {
+    "referencia": "RV2992.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2992.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2990.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2990.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2993.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2993.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RE2901.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RE2901.04",
+    "volume": "900ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "5100.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "RV2592.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2592.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2590.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2590.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2593.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV2593.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "2500.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "2500.04",
+    "volume": "900ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1299.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "1299.04",
+    "volume": "900ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1199.04",
+    "volume": "900ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1199.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "1174.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1174.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1141.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1141.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1134.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1134.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "RV1192.04",
+    "volume": "800ml",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV1192.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "RV1190.04",
+    "volume": "800ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "RV1190.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 32
+  },
+  {
+    "referencia": "RV1193.04",
+    "volume": "800ml",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV1193.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "1100.16",
+    "volume": "225ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1100.04",
+    "volume": "800ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "1100.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "1159.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1159.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1179.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1179.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1162.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1162.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1144.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1144.16",
+    "volume": "225ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1144.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1166.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1166.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1155.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1155.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1154.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1154.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1180.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1180.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1181.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1181.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1945.16",
+    "volume": "225ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1945.04",
+    "volume": "800ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1945.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "3414.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3414.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "RV1300.04",
+    "volume": "800ml",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV1300.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "350.33",
+    "volume": "2,7LTS",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "7200.33",
+    "volume": "2,7LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "8918080.33",
+    "volume": "2,7LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "9217090.33",
+    "volume": "2,7LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "200.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "200.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "26120.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "26120.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "245.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "245.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "4686.09",
+    "volume": "5KG",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "4686.14",
+    "volume": "1,25KG",
+    "estoque_minimo": 30
+  },
+  {
+    "referencia": "4686.43",
+    "volume": "25KG",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "4650.09",
+    "volume": "5KG",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "4651.09",
+    "volume": "5KG",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "25110.43",
+    "volume": "25KG",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "25110.14",
+    "volume": "1,25KG",
+    "estoque_minimo": 30
+  },
+  {
+    "referencia": "25110.09",
+    "volume": "5KG",
+    "estoque_minimo": 40
+  },
+  {
+    "referencia": "30110.43",
+    "volume": "25KG",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "190.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "190.04",
+    "volume": "800ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "4680.38",
+    "volume": "340G",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "4680.26",
+    "volume": "90G",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "4697.38",
+    "volume": "1.5KG",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "4697.09",
+    "volume": "5KG",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "692.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "692.43",
+    "volume": "18LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "288110.43",
+    "volume": "16LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "288110.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 40
+  },
+  {
+    "referencia": "388110.43",
+    "volume": "16LTS",
+    "estoque_minimo": 25
+  },
+  {
+    "referencia": "769.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "769.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "4292.04",
+    "volume": "800ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "49030.50",
+    "volume": "18LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "49030.10",
+    "volume": "5LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "22002.03",
+    "volume": "900ml",
+    "estoque_minimo": 60
+  },
+  {
+    "referencia": "22002.10",
+    "volume": "5LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "372002.03",
+    "volume": "900ml",
+    "estoque_minimo": 36
+  },
+  {
+    "referencia": "372002.10",
+    "volume": "5LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6830.04",
+    "volume": "900ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ6830.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "MJ6870.01",
+    "volume": "900ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "MJ6801.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "MJ6801.04",
+    "volume": "900ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ6805.04",
+    "volume": "900ML",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ6805.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "MJ6804.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "MJ6804.04",
+    "volume": "900ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ6860.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "MJ6860.04",
+    "volume": "900ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "MJ6955.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6955.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ7050.04",
+    "volume": "900ML",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ7050.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "MJ6770.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "MJ6770.04",
+    "volume": "900ML",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "MJ6749.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6749.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6740.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6740.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6745.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6745.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6735.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "MJ6720.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "MJ6720.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3545.43",
+    "volume": "25KG",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "RV3545.01",
+    "volume": "5KG",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3575.01",
+    "volume": "4.8KG",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "RV3575.43",
+    "volume": "24KG",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "40687.43",
+    "volume": "23KG",
+    "estoque_minimo": 15
+  },
+  {
+    "referencia": "250.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "DV4795.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "DV4795.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "DV4795.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "DR4701.04",
+    "volume": "900ml",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "DR4701.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "DR4701.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "DV7492.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "DV7492.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "DV7490.45",
+    "volume": "16LTS",
+    "estoque_minimo": 25
+  },
+  {
+    "referencia": "DV7490.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 40
+  },
+  {
+    "referencia": "DV7493.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "DV7493.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7400.04",
+    "volume": "900ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "7400.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "7400.45",
+    "volume": "16LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "7458.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7458.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "7460.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "7460.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7418.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7418.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "RV6090.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "RV6090.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "RV7090.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "RV7090.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV6092.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "RV6092.45",
+    "volume": "16LTS",
+    "estoque_minimo": 2
+  },
+  {
+    "referencia": "RV6093.45",
+    "volume": "16LTS",
+    "estoque_minimo": 2
+  },
+  {
+    "referencia": "RV6093.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 2
+  },
+  {
+    "referencia": "RE4301.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "RE4301.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "RV8872.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV8872.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "RV8870.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "RV8870.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV8873.04",
+    "volume": "800ML",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "RV8873.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RE8801.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "RE8801.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7111.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7111.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "7109.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7109.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7100.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "7100.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7104.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7104.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7106.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7106.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7110.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7110.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7113.01",
+    "volume": "900ml",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "7113.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "7113.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7107.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "7107.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7108.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7108.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "7112.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "7112.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3001.43",
+    "volume": "16LTS",
+    "estoque_minimo": 25
+  },
+  {
+    "referencia": "3001.09",
+    "volume": "3,2LTS",
+    "estoque_minimo": 36
+  },
+  {
+    "referencia": "3028.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3038.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3048.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3048.43",
+    "volume": "16LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3047.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3047.43",
+    "volume": "16LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3077.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3077.43",
+    "volume": "16LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "RV3300.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "RV3300.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3300.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3400.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3400.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "RV3400.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "RV3600.04",
+    "volume": "800ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "RV3600.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "RV3600.45",
+    "volume": "16LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "RV1592.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "RV1592.04",
+    "volume": "800ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV1592.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "RV1590.45",
+    "volume": "16LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "RV1590.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 40
+  },
+  {
+    "referencia": "RV1590.04",
+    "volume": "800ML",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "RV1593.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "RV1593.04",
+    "volume": "800ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV1593.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "1501.45",
+    "volume": "18LTS",
+    "estoque_minimo": 15
+  },
+  {
+    "referencia": "1501.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "RV3992.04",
+    "volume": "800ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV3992.45",
+    "volume": "16LTS",
+    "estoque_minimo": 10
+  },
+  {
+    "referencia": "RV3992.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "RV3990.04",
+    "volume": "800ML",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "RV3990.45",
+    "volume": "16LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "RV3990.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 40
+  },
+  {
+    "referencia": "RV3993.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "RV3993.04",
+    "volume": "800ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "RV3993.45",
+    "volume": "16LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "900.45",
+    "volume": "18LTS",
+    "estoque_minimo": 20
+  },
+  {
+    "referencia": "900.09",
+    "volume": "3,6LTS",
+    "estoque_minimo": 28
+  },
+  {
+    "referencia": "900.04",
+    "volume": "900ml",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "3203.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3203.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "3202.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "3202.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3207.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "3207.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3206.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "3206.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "3201.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "3205.45",
+    "volume": "18LTS",
+    "estoque_minimo": 5
+  },
+  {
+    "referencia": "3205.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "RV1993.04",
+    "volume": "800ML",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "RV1993.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "1900.01",
+    "volume": "3,5LTS",
+    "estoque_minimo": 8
+  },
+  {
+    "referencia": "1900.04",
+    "volume": "870ML",
+    "estoque_minimo": 6
+  },
+  {
+    "referencia": "1037.04",
+    "volume": "900ml",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1037.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 16
+  },
+  {
+    "referencia": "1615.80",
+    "volume": "400ML",
+    "estoque_minimo": 30
+  },
+  {
+    "referencia": "1617.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1613.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1614.80",
+    "volume": "400ML",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "1611.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1612.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1600.80",
+    "volume": "400ML",
+    "estoque_minimo": 30
+  },
+  {
+    "referencia": "1602.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1603.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1604.80",
+    "volume": "400ML",
+    "estoque_minimo": 30
+  },
+  {
+    "referencia": "1605.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1606.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1607.80",
+    "volume": "400ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1608.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1609.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1610.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1619.80",
+    "volume": "400ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1618.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1620.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1616.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1662.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1665.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1660.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1661.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1663.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1664.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1650.80",
+    "volume": "400ML",
+    "estoque_minimo": 24
+  },
+  {
+    "referencia": "1651.80",
+    "volume": "400ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1630.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1631.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1633.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1634.80",
+    "volume": "400ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1636.80",
+    "volume": "400ML",
+    "estoque_minimo": 18
+  },
+  {
+    "referencia": "1637.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1635.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  },
+  {
+    "referencia": "1632.80",
+    "volume": "400ML",
+    "estoque_minimo": 12
+  }
+]
