@@ -221,12 +221,80 @@
           </thead>
           <tbody>${linhas.join('')}</tbody>
         </table>
-        </body></html>
+        
+<script>
+function abrirTabela() {
+  let lista = [];
+
+  for (const ref in contagem) {
+    const item = dados.find(i => i.referencia === ref);
+    if (!item) continue;
+
+    const atual = contagem[ref];
+    const minimo = item.estoque_minimo;
+    const pedir = minimo - atual;
+
+    if (pedir > 0) {
+      lista.push({
+        referencia: ref,
+        volume: item.volume,
+        atual: atual,
+        minimo: minimo,
+        pedir: pedir
+      });
+    }
+  }
+
+  if (lista.length === 0) {
+    alert("Nenhum item precisa ser pedido.");
+    return;
+  }
+
+  localStorage.setItem("itensParaPedido", JSON.stringify(lista));
+  window.open("pedido.html", "_blank");
+}
+</script>
+
+</body></html>
       `;
       const novaJanela = window.open("", "_blank");
       novaJanela.document.write(tabela);
       novaJanela.document.close();
     }
     </script>
+
+<script>
+function abrirTabela() {
+  let lista = [];
+
+  for (const ref in contagem) {
+    const item = dados.find(i => i.referencia === ref);
+    if (!item) continue;
+
+    const atual = contagem[ref];
+    const minimo = item.estoque_minimo;
+    const pedir = minimo - atual;
+
+    if (pedir > 0) {
+      lista.push({
+        referencia: ref,
+        volume: item.volume,
+        atual: atual,
+        minimo: minimo,
+        pedir: pedir
+      });
+    }
+  }
+
+  if (lista.length === 0) {
+    alert("Nenhum item precisa ser pedido.");
+    return;
+  }
+
+  localStorage.setItem("itensParaPedido", JSON.stringify(lista));
+  window.open("pedido.html", "_blank");
+}
+</script>
+
 </body>
 </html>
