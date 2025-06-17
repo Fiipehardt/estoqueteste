@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Itens para Pedido</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .print { margin-bottom: 15px; padding: 8px 14px; border: none; background: #009688; color: white; border-radius: 5px; cursor: pointer; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th {
+      background-color: #009688;
+      color: white;
+      padding: 12px 15px;
+      text-align: left;
+    }
+    td {
+      padding: 12px 15px;
+      background-color: #f9f9f9;
+    }
+    tr:nth-child(even) td {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <strong>Estoque CP - Itens para Pedido</strong>
+    <div id="dataHora">📅</div>
+  </div>
+  <div style="display:flex; gap:10px; margin-bottom:15px;">
+    <button class="print" onclick="window.print()">🖨️ Imprimir</button>
+    <button class="print" onclick="exportarPDF()">📥 Exportar como PDF</button>
+  </div>
+  <div id="tabela-container">
+    <table border="1">
+      <thead>
+        <tr><th>Referência</th><th>Volume</th><th>Atual</th><th>Mínimo</th><th>Pedir</th></tr>
+      </thead>
+      <tbody id="corpo-tabela"></tbody>
+    </table>
+  </div>
+
+  <script>
+    document.getElementById("dataHora").innerText = "📅 " + new Date().toLocaleString("pt-BR");
+
+    function exportarPDF() {
+      const content = document.getElementById('tabela-container');
+      const opt = {
+        margin: 0.5,
+        filename: 'pedido_estoque.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(content).save();
+    }
+
+    const itensJSON = localStorage.getItem("itensParaPedido");
+    if (itensJSON) {
+      const itens = JSON.parse(itensJSON);
+      const tbody = document.getElementById("corpo-tabela");
+      itens.forEach(item => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${item.referencia}</td>
+          <td>${item.volume}</td>
+          <td>${item.atual}</td>
+          <td>${item.minimo}</td>
+          <td>${item.pedir}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    } else {
+      alert("Nenhuma lista encontrada.");
+    }
+  </script>
+</body>
+</html>
