@@ -1,36 +1,203 @@
 
-<!-- HTML original mantido acima... -->
-<script>
-function abrirTabela() {
-  let lista = [];
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estoque CP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #121212;
+      color: #eee;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #00bfa5;
+    }
+    input, button {
+      font-size: 1rem;
+      padding: 10px;
+      margin: 5px 0;
+    }
+    input[type="tel"] {
+      width: 100%;
+      border: 1px solid #555;
+      border-radius: 5px;
+      background: #1e1e1e;
+      color: #fff;
+    }
+    .item {
+      background: #1e1e1e;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .botoes {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .botoes button {
+      flex: 1;
+      background: #00bfa5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #lista-pedido {
+      white-space: pre-wrap;
+      margin-top: 20px;
+      background: #263238;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: monospace;
+      color: #cfd8dc;
+    }
+    .campo-edicao {
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Estoque CP</h1>
+  <input type="tel" pattern="[0-9]*" inputmode="numeric" id="busca" placeholder="Buscar por referência..." oninput="filtrar()" />
+  <div id="lista"></div>
+  <div class="botoes">
+    <button onclick="gerarLista()">📋 Gerar Lista</button>
+    <button onclick="resetar()">🔄 Resetar</button>
+    <button onclick="copiarLista()">📤 Copiar Lista</button>
+  </div>
+  <button onclick="abrirTabela()">📄 Abrir Tabela de Pedido</button>
+  <div id="lista-pedido"></div>
 
-  for (const ref in contagem) {
-    const item = dados.find(i => i.referencia === ref);
-    if (!item) continue;
+  <script>
+    let dados = []; // será preenchido abaixo
+    let contagem = JSON.parse(localStorage.getItem("contagem") || '{}');
 
-    const atual = contagem[ref];
-    const minimo = item.estoque_minimo;
-    const pedir = minimo - atual;
+    async function carregarDados() {
+      const res = await fetch("dados.json"); // ou insira direto aqui se não usar arquivo externo
+      dados = await res.json();
+    }
 
-    if (pedir > 0) {
-      lista.push({
-        referencia: ref,
-        volume: item.volume,
-        atual: atual,
-        minimo: minimo,
-        pedir: pedir
+    function filtrar() {
+      const termo = document.getElementById('busca').value.toLowerCase();
+      const container = document.getElementById('lista');
+      container.innerHTML = '';
+      if (!termo) return;
+      dados.forEach(item => {
+        if (item.referencia.toLowerCase().includes(termo)) {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `
+            <strong>${item.referencia}</strong> - ${item.volume}<br/>
+            <button onclick="mostrarEdicao(this, '${item.referencia}')">✏️ Editar Estoque</button>
+            <div class="campo-edicao" style="display:none;">
+              Quantidade atual: 
+              <input type="tel" pattern="[0-9]*" inputmode="numeric" value="${contagem[item.referencia] ?? ''}" 
+                onchange="atualizarEstoque('${item.referencia}', this.value)">
+            </div>
+          `;
+          container.appendChild(div);
+        }
       });
     }
-  }
 
-  if (lista.length === 0) {
-    alert("Nenhum item precisa ser pedido.");
-    return;
-  }
+    function mostrarEdicao(botao, ref) {
+      const div = botao.nextElementSibling;
+      div.style.display = 'block';
+      botao.style.display = 'none';
+    }
 
-  localStorage.setItem("itensParaPedido", JSON.stringify(lista));
-  window.open("pedido.html", "_blank");
-}
-</script>
+    function atualizarEstoque(ref, valor) {
+      contagem[ref] = parseInt(valor);
+      localStorage.setItem("contagem", JSON.stringify(contagem));
+    }
+
+    function gerarLista() {
+      let texto = '';
+      for (const ref in contagem) {
+        const item = dados.find(i => i.referencia === ref);
+        if (!item) continue;
+        const atual = contagem[ref];
+        const minimo = item.estoque_minimo;
+        const pedir = minimo - atual;
+        if (pedir > 0) {
+          texto += `${ref} - Atual: ${atual} | Mínimo: ${minimo} → Pedir: ${pedir}
+`;
+        }
+      }
+
+      if (!texto) {
+        texto = 'Nenhum item precisa ser pedido.';
+      }
+
+      let naoConferidos = dados
+        .filter(item => !contagem.hasOwnProperty(item.referencia))
+        .map(item => '- ' + item.referencia);
+      if (naoConferidos.length > 0) {
+        texto += `
+
+⚠️ Itens não conferidos: ${naoConferidos.length}
+` + naoConferidos.join('
+');
+      }
+
+      document.getElementById('lista-pedido').innerText = texto;
+    }
+
+    function copiarLista() {
+      const texto = document.getElementById('lista-pedido').innerText;
+      navigator.clipboard.writeText(texto);
+      alert("Lista copiada!");
+    }
+
+    function resetar() {
+      if (confirm("Deseja zerar todos os dados?")) {
+        contagem = {};
+        localStorage.removeItem("contagem");
+        document.getElementById('lista').innerHTML = '';
+        document.getElementById('busca').value = '';
+        document.getElementById('lista-pedido').innerText = '';
+      }
+    }
+
+    function abrirTabela() {
+      let lista = [];
+
+      for (const ref in contagem) {
+        const item = dados.find(i => i.referencia === ref);
+        if (!item) continue;
+
+        const atual = contagem[ref];
+        const minimo = item.estoque_minimo;
+        const pedir = minimo - atual;
+
+        if (pedir > 0) {
+          lista.push({
+            referencia: ref,
+            volume: item.volume,
+            atual: atual,
+            minimo: minimo,
+            pedir: pedir
+          });
+        }
+      }
+
+      if (lista.length === 0) {
+        alert("Nenhum item precisa ser pedido.");
+        return;
+      }
+
+      localStorage.setItem("itensParaPedido", JSON.stringify(lista));
+      window.open("pedido.html", "_blank");
+    }
+
+    window.onload = carregarDados;
+  </script>
 </body>
 </html>
