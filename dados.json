@@ -1438,5 +1438,9 @@
     "referencia": "1632.80",
     "volume": "400ML",
     "estoque_minimo": 12
+  },
+  {
+    "referencia": "3201.45",
+    "volume": "18LTS",
+    "estoque_minimo": 3
   }
-]
