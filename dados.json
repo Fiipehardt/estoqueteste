@@ -975,26 +975,6 @@
     "estoque_minimo": 36
   },
   {
-    "referencia": "3028.01",
-    "volume": "3,6LTS",
-    "estoque_minimo": 8
-  },
-  {
-    "referencia": "3038.01",
-    "volume": "3,6LTS",
-    "estoque_minimo": 8
-  },
-  {
-    "referencia": "3048.01",
-    "volume": "3,6LTS",
-    "estoque_minimo": 8
-  },
-  {
-    "referencia": "3048.43",
-    "volume": "16LTS",
-    "estoque_minimo": 4
-  },
-  {
     "referencia": "3047.01",
     "volume": "3,6LTS",
     "estoque_minimo": 8
@@ -1438,6 +1418,36 @@
     "referencia": "1632.80",
     "volume": "400ML",
     "estoque_minimo": 12
+  },
+  {
+    "referencia": "145.01",
+    "volume": "3.5LTS",
+    "estoque_minimo": 4
+  },
+  {
+    "referencia": "5100.04",
+    "volume": "900ML",
+    "estoque_minimo": 20
+  },
+  {
+	"referencia": "30565.43",
+    "volume": "25KG",
+    "estoque_minimo": 8
+  },
+  {
+	"referencia": "5190.01",
+    "volume": "3,2LTS",
+    "estoque_minimo": 24
+  },
+  {
+	"referencia": "3062.45",
+    "volume": "18LTS",
+    "estoque_minimo": 4
+  },
+  {
+	"referencia": "3062.01",
+    "volume": "3,6LTS",
+    "estoque_minimo": 8
   },
   {
     "referencia": "3201.45",
